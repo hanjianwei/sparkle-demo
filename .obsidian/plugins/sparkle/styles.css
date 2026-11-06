@@ -2,8 +2,8 @@
 	--sparkle-radius: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 18px;
-	padding: 20px 16px;
+	gap: 12px;
+	padding: 12px;
 }
 
 .sparkle-panel > * {
@@ -15,10 +15,6 @@
 	display: none !important;
 }
 
-.sparkle-panel .sparkle-header,
-.sparkle-panel .sparkle-brand,
-.sparkle-panel .sparkle-destination,
-.sparkle-panel .sparkle-composer-header,
 .sparkle-panel .sparkle-composer-footer,
 .sparkle-panel .sparkle-records-header {
 	display: flex;
@@ -27,39 +23,10 @@
 	gap: 12px;
 }
 
-.sparkle-panel .sparkle-brand {
-	justify-content: flex-start;
-}
-
-.sparkle-panel .sparkle-brand-icon {
-	display: grid;
-	place-items: center;
-	width: 36px;
-	height: 36px;
-	flex-shrink: 0;
-	border-radius: 11px;
-	background: var(--background-modifier-hover);
-	color: var(--interactive-accent);
-}
-
-.sparkle-panel .sparkle-title,
-.sparkle-panel .sparkle-composer-title,
 .sparkle-panel .sparkle-records-title {
 	margin: 0;
 	font-size: var(--font-ui-medium);
 	font-weight: var(--font-semibold);
-}
-
-.sparkle-panel .sparkle-title {
-	font-size: 18px;
-	letter-spacing: 0.04em;
-}
-
-.sparkle-panel .sparkle-subtitle {
-	margin: 4px 0 0;
-	color: var(--text-muted);
-	font-size: 11px;
-	line-height: 1.5;
 }
 
 .sparkle-panel .sparkle-icon-button {
@@ -98,19 +65,38 @@
 
 .sparkle-panel .sparkle-target {
 	display: flex;
-	flex-direction: column;
-	gap: 12px;
-	padding: 12px;
-	border: 1px solid var(--background-modifier-border);
-	border-radius: var(--sparkle-radius);
-	background: var(--background-primary);
+	align-items: center;
+	gap: 8px;
+	box-sizing: border-box;
+}
+
+.sparkle-panel .sparkle-target-actions {
+	display: flex;
+	align-items: center;
+	flex: 0 0 auto;
+	gap: 4px;
+	margin-inline-start: auto;
+}
+
+.sparkle-panel .sparkle-target-actions .sparkle-icon-button {
+	width: 36px;
+	height: 36px;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.sparkle-panel .sparkle-target-actions .sparkle-icon-button svg {
+	width: 20px;
+	height: 20px;
 }
 
 .sparkle-panel .sparkle-modes {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: column;
+	grid-auto-columns: max-content;
+	flex: 0 0 auto;
 	gap: 3px;
-	padding: 3px;
+	padding: 2px;
 	background: var(--background-secondary);
 	border-radius: 8px;
 }
@@ -119,9 +105,9 @@
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	gap: 7px;
+	gap: 5px;
 	min-width: 0;
-	min-height: 30px;
+	min-height: 32px;
 	height: auto;
 	padding: 5px 8px;
 	border: 1px solid transparent;
@@ -131,7 +117,7 @@
 	color: var(--text-muted);
 	font-size: var(--font-ui-small);
 	line-height: 1.4;
-	white-space: normal;
+	white-space: nowrap;
 }
 
 .sparkle-panel .sparkle-mode.is-active {
@@ -141,26 +127,10 @@
 	box-shadow: 0 1px 3px var(--background-modifier-box-shadow);
 }
 
-.sparkle-panel .sparkle-file-info {
-	min-width: 0;
-}
-
-.sparkle-panel .sparkle-label {
-	color: var(--text-muted);
-	font-size: 11px;
-}
-
-.sparkle-panel .sparkle-target-name {
-	margin-top: 4px;
-	font-size: var(--font-ui-medium);
-	font-weight: var(--font-semibold);
-	overflow-wrap: anywhere;
-}
-
-.sparkle-panel .sparkle-target-path {
-	margin-top: 3px;
-	color: var(--text-muted);
-	font-size: 11px;
+.sparkle-panel .sparkle-target-error {
+	margin: 0;
+	color: var(--text-error);
+	font-size: var(--font-ui-small);
 	line-height: 1.5;
 	overflow-wrap: anywhere;
 }
@@ -172,29 +142,11 @@
 	gap: 8px;
 }
 
-.sparkle-panel .sparkle-file-actions button {
-	height: 27px;
-	padding: 3px 9px;
-	font-size: 11px;
-	box-shadow: none;
-	border: 1px solid var(--background-modifier-border);
-	background: transparent;
-}
-
-.sparkle-panel .sparkle-hint,
-.sparkle-panel .sparkle-settings-summary,
 .sparkle-panel .sparkle-shortcut {
 	margin: 0;
 	font-size: 11px;
 	line-height: 1.6;
 	color: var(--text-muted);
-}
-
-.sparkle-panel .sparkle-settings-summary {
-	padding-top: 10px;
-	border-top: 1px solid var(--background-modifier-border);
-	color: var(--text-faint);
-	overflow-wrap: anywhere;
 }
 
 .sparkle-panel .sparkle-add {
@@ -226,14 +178,6 @@
 	border-radius: var(--sparkle-radius);
 	background: var(--background-primary);
 	box-shadow: 0 2px 10px var(--background-modifier-box-shadow);
-}
-
-.sparkle-panel .sparkle-draft-badge {
-	padding: 2px 7px;
-	border-radius: 5px;
-	background: var(--background-secondary);
-	color: var(--text-muted);
-	font-size: 10px;
 }
 
 .sparkle-panel .sparkle-field {
@@ -354,11 +298,40 @@
 	gap: 8px;
 }
 
+.sparkle-panel .sparkle-tools {
+	display: flex;
+	align-items: center;
+	flex: 1 1 0;
+	min-width: 0;
+	gap: 6px;
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	scrollbar-width: none;
+}
+
+.sparkle-panel .sparkle-tools::-webkit-scrollbar {
+	display: none;
+}
+
+.sparkle-panel .sparkle-tools .sparkle-icon-button {
+	width: 36px;
+	height: 36px;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.sparkle-panel .sparkle-tools .sparkle-icon-button svg {
+	width: 18px;
+	height: 18px;
+}
+
 .sparkle-panel .sparkle-composer-footer .sparkle-actions {
+	flex: 0 0 auto;
 	margin-inline-start: auto;
 }
 
 .sparkle-panel .sparkle-composer-footer button {
+	min-height: 36px;
 	font-size: var(--font-ui-small);
 }
 
@@ -458,7 +431,9 @@
 	line-height: 1.7;
 }
 
-.sparkle-panel .sparkle-sr-only {
+.sparkle-panel .sparkle-sr-only,
+.sparkle-quick-modal .modal-header {
+	/* Keep labels and the dialog title accessible without a separate row. */
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -635,30 +610,8 @@
 	margin-inline: auto;
 }
 
-.sparkle-stream .sparkle-header .sparkle-title {
-	font-size: 16px;
-	letter-spacing: 0;
-}
-
-.sparkle-stream .sparkle-subtitle,
-.sparkle-stream .sparkle-target-name,
-.sparkle-stream .sparkle-target .sparkle-label,
-.sparkle-stream .sparkle-target .sparkle-hint,
-.sparkle-stream .sparkle-settings-summary,
-.sparkle-stream .sparkle-composer-header,
 .sparkle-stream .sparkle-records-caption {
 	display: none;
-}
-
-.sparkle-stream .sparkle-target {
-	padding: 0;
-	border: 0;
-	gap: 4px;
-}
-
-.sparkle-stream .sparkle-target-path {
-	margin: 0;
-	font-size: var(--font-ui-small);
 }
 
 .sparkle-stream .sparkle-stream-feed {
@@ -721,10 +674,6 @@
 }
 
 @container sparkle-capture (max-height: 400px) {
-	.sparkle-stream .sparkle-header,
-	.sparkle-stream .sparkle-destination {
-		display: none;
-	}
 	.sparkle-stream .sparkle-editor {
 		height: 48px;
 	}
@@ -740,7 +689,6 @@
 }
 
 @container sparkle-capture (max-height: 220px) {
-	.sparkle-stream .sparkle-target,
 	.sparkle-stream .sparkle-stream-feed {
 		display: none;
 	}
@@ -752,6 +700,12 @@
 }
 
 .sparkle-quick-container .sparkle-quick-modal {
+	--sparkle-modal-padding: clamp(
+		8px,
+		calc(var(--sparkle-available-height) * 0.04),
+		20px
+	);
+	--sparkle-close-size: 32px;
 	position: relative;
 	inset: auto;
 	transform: none;
@@ -763,15 +717,20 @@
 	max-height: 100%;
 	height: auto;
 	box-sizing: border-box;
-	padding: clamp(8px, calc(var(--sparkle-available-height) * 0.04), 20px);
+	padding: var(--sparkle-modal-padding);
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
 }
 
-.sparkle-quick-modal .modal-title {
-	flex-shrink: 0;
-	margin-bottom: 12px;
+.sparkle-quick-modal > .modal-header-button,
+.sparkle-quick-modal > .modal-close-button {
+	top: var(--sparkle-modal-padding);
+	inset-inline-end: var(--sparkle-modal-padding);
+	width: var(--sparkle-close-size);
+	height: var(--sparkle-close-size);
+	padding: 0;
+	transform: none;
 }
 
 .sparkle-quick-modal .modal-content {
@@ -796,39 +755,20 @@
 }
 
 .sparkle-quick .sparkle-target {
-	padding: 0;
-	gap: 4px;
-	border: 0;
+	container: sparkle-header / inline-size;
+	padding-inline-end: calc(var(--sparkle-close-size) + 8px);
 }
 
-.sparkle-quick .sparkle-target .sparkle-label,
-.sparkle-quick .sparkle-target-name,
-.sparkle-quick .sparkle-target .sparkle-hint,
-.sparkle-quick .sparkle-settings-summary {
-	display: none;
-}
-
-.sparkle-quick .sparkle-target-path {
-	margin: 0;
-	font-size: var(--font-ui-small);
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-.sparkle-quick .sparkle-target-path.is-error {
-	color: var(--text-error);
-	white-space: normal;
+@container sparkle-header (max-width: 260px) {
+	.sparkle-mode .sparkle-button-icon {
+		display: none;
+	}
 }
 
 .sparkle-quick .sparkle-composer {
 	padding: 0;
 	border: 0;
 	box-shadow: none;
-}
-
-.sparkle-quick .sparkle-composer-header {
-	display: none;
 }
 
 .sparkle-quick .sparkle-editor {
@@ -937,6 +877,15 @@
 }
 
 @media (pointer: coarse) {
+	.sparkle-quick-container .sparkle-quick-modal {
+		--sparkle-close-size: 44px;
+	}
+
+	.sparkle-target .sparkle-mode {
+		min-width: 44px;
+		min-height: 44px;
+	}
+
 	.sparkle-quick button,
 	.sparkle-stream button {
 		min-height: 44px;
@@ -945,5 +894,33 @@
 	.sparkle-quick .sparkle-icon-button,
 	.sparkle-stream .sparkle-icon-button {
 		width: 44px;
+	}
+
+	.sparkle-panel .sparkle-target-actions .sparkle-icon-button {
+		width: 44px;
+		height: 44px;
+	}
+
+	.sparkle-panel .sparkle-target-actions .sparkle-icon-button svg {
+		width: 22px;
+		height: 22px;
+	}
+
+	.sparkle-panel .sparkle-composer-footer button {
+		min-height: 48px;
+	}
+
+	.sparkle-panel .sparkle-tools {
+		gap: 4px;
+	}
+
+	.sparkle-panel .sparkle-tools .sparkle-icon-button {
+		width: 48px;
+		height: 48px;
+	}
+
+	.sparkle-panel .sparkle-tools .sparkle-icon-button svg {
+		width: 20px;
+		height: 20px;
 	}
 }
