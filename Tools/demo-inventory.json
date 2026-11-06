@@ -1,0 +1,251 @@
+{
+  "generated": "2026-11-06",
+  "start": "2026-11-04",
+  "end": "2026-11-06",
+  "recordCount": 16,
+  "dailyCount": 9,
+  "topicCount": 7,
+  "imageCount": 4,
+  "imageRecordCount": 3,
+  "locatedCount": 4,
+  "sourceFiles": [
+    "日记/2026-11-04.md",
+    "日记/2026-11-05.md",
+    "日记/2026-11-06.md",
+    "主题/产品-Sparkle.md",
+    "主题/读书-人物与选择.md",
+    "主题/设计-极简交互.md"
+  ],
+  "imageFiles": [
+    "日记/assets/2026-11-04/river.svg",
+    "日记/assets/2026-11-05/sketch.svg",
+    "主题/assets/capture.svg",
+    "主题/assets/toolbar.svg"
+  ],
+  "records": [
+    {
+      "id": "sparkle-demo-0001",
+      "date": "2026-11-04",
+      "time": "08:10:05",
+      "kind": "daily",
+      "path": "日记/2026-11-04.md",
+      "tags": [],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0002",
+      "date": "2026-11-04",
+      "time": "12:30:14",
+      "kind": "daily",
+      "path": "日记/2026-11-04.md",
+      "tags": [
+        "阅读",
+        "阅读/方法"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0003",
+      "date": "2026-11-04",
+      "time": "19:25:09",
+      "kind": "daily",
+      "path": "日记/2026-11-04.md",
+      "tags": [
+        "生活",
+        "生活/观察"
+      ],
+      "image": true,
+      "location": {
+        "name": "上海·外滩",
+        "latitude": 31.24,
+        "longitude": 121.49
+      }
+    },
+    {
+      "id": "sparkle-demo-0004",
+      "date": "2026-11-05",
+      "time": "09:15:42",
+      "kind": "daily",
+      "path": "日记/2026-11-05.md",
+      "tags": [
+        "产品",
+        "产品/捕捉",
+        "待验证"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0005",
+      "date": "2026-11-05",
+      "time": "13:05:18",
+      "kind": "daily",
+      "path": "日记/2026-11-05.md",
+      "tags": [
+        "设计",
+        "设计/交互"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0006",
+      "date": "2026-11-05",
+      "time": "20:40:27",
+      "kind": "daily",
+      "path": "日记/2026-11-05.md",
+      "tags": [
+        "灵感",
+        "绘图"
+      ],
+      "image": true,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0007",
+      "date": "2026-11-06",
+      "time": "07:45:03",
+      "kind": "daily",
+      "path": "日记/2026-11-06.md",
+      "tags": [
+        "生活",
+        "观察"
+      ],
+      "image": false,
+      "location": {
+        "name": "杭州·西湖",
+        "latitude": 30.244,
+        "longitude": 120.145
+      }
+    },
+    {
+      "id": "sparkle-demo-0008",
+      "date": "2026-11-06",
+      "time": "14:20:10",
+      "kind": "daily",
+      "path": "日记/2026-11-06.md",
+      "tags": [
+        "旅行",
+        "旅行/城市"
+      ],
+      "image": false,
+      "location": {
+        "name": "杭州·运河",
+        "latitude": 30.311,
+        "longitude": 120.136
+      }
+    },
+    {
+      "id": "sparkle-demo-0009",
+      "date": "2026-11-06",
+      "time": "21:10:36",
+      "kind": "daily",
+      "path": "日记/2026-11-06.md",
+      "tags": [
+        "学习",
+        "学习/复盘"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0010",
+      "date": "2026-11-04",
+      "time": "10:05:12",
+      "kind": "file",
+      "path": "主题/产品-Sparkle.md",
+      "tags": [
+        "产品",
+        "产品/捕捉"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0011",
+      "date": "2026-11-05",
+      "time": "11:42:08",
+      "kind": "file",
+      "path": "主题/产品-Sparkle.md",
+      "tags": [
+        "产品",
+        "待验证"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0012",
+      "date": "2026-11-06",
+      "time": "16:50:21",
+      "kind": "file",
+      "path": "主题/产品-Sparkle.md",
+      "tags": [
+        "产品",
+        "设计/交互"
+      ],
+      "image": true,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0013",
+      "date": "2026-11-04",
+      "time": "22:03:17",
+      "kind": "file",
+      "path": "主题/读书-人物与选择.md",
+      "tags": [
+        "阅读",
+        "阅读/人物"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0014",
+      "date": "2026-11-06",
+      "time": "19:30:44",
+      "kind": "file",
+      "path": "主题/读书-人物与选择.md",
+      "tags": [
+        "阅读",
+        "阅读/方法",
+        "已实践"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0015",
+      "date": "2026-11-05",
+      "time": "17:05:33",
+      "kind": "file",
+      "path": "主题/设计-极简交互.md",
+      "tags": [
+        "设计",
+        "设计/交互",
+        "待验证"
+      ],
+      "image": false,
+      "location": null
+    },
+    {
+      "id": "sparkle-demo-0016",
+      "date": "2026-11-06",
+      "time": "10:18:56",
+      "kind": "file",
+      "path": "主题/设计-极简交互.md",
+      "tags": [
+        "设计",
+        "观察"
+      ],
+      "image": false,
+      "location": {
+        "name": "南京·玄武湖",
+        "latitude": 32.074,
+        "longitude": 118.798
+      }
+    }
+  ]
+}

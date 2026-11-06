@@ -1,0 +1,11 @@
+{
+  "mode": "daily",
+  "targetPath": "Welcome.md",
+  "content": "",
+  "tags": "",
+  "expanded": false,
+  "settings": {
+    "heading": "Ideas",
+    "insertionPosition": "end"
+  }
+}

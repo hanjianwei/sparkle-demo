@@ -1,0 +1,6 @@
+{
+  "enableDataviewJs": true,
+  "refreshEnabled": true,
+  "defaultDateFormat": "yyyy-MM-dd",
+  "defaultDateTimeFormat": "yyyy-MM-dd HH:mm:ss"
+}

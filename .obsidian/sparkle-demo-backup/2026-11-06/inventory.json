@@ -1,0 +1,31 @@
+{
+  "community-plugins.json": {
+    "existed": true,
+    "sha256": "f3c83a0753f8e374dd1c8ad963ee02cb355cca3d1912a7f8c171313717adc429"
+  },
+  "daily-notes.json": {
+    "existed": false
+  },
+  "plugins/dataview/data.json": {
+    "existed": false
+  },
+  "plugins/obsidian-map-view/data.json": {
+    "existed": false
+  },
+  "plugins/obsidian-charts/data.json": {
+    "existed": false
+  },
+  "plugins/sparkle/data.json": {
+    "existed": true,
+    "sha256": "7f12c979c435f24d8a63a4fa3f5276488598f154e3b8d56d11f22076222b17e5"
+  },
+  "Welcome.md": {
+    "sha256": "2af3c61f6848525cda7102591d69977c558a6c859f514603eb41576a7822ccf0"
+  },
+  "2026-11-06.md": {
+    "sha256": "421ff33c88cf17354bf9954178f2a82f54335fb1026f7103a5f64bc8c1fdf8db"
+  },
+  "Untitled.base": {
+    "sha256": "fc1d1bab190c39498bf9c35376a8477a9f980eb8baa43e78217176e0d41f012a"
+  }
+}

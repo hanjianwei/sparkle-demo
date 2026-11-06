@@ -1,0 +1,15 @@
+{
+  "mode": "daily",
+  "targetPath": "Welcome.md",
+  "content": "",
+  "tags": "",
+  "images": [],
+  "location": null,
+  "expanded": false,
+  "settings": {
+    "heading": "Ideas",
+    "insertionPosition": "end",
+    "noteImageFolder": "assets",
+    "dailyImageFolder": "assets/{date}"
+  }
+}

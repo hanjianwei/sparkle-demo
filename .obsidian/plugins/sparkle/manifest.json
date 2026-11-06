@@ -1,0 +1,10 @@
+{
+	"id": "sparkle",
+	"name": "Sparkle",
+	"version": "0.2.0",
+	"minAppVersion": "1.13.0",
+	"description": "Capture ideas into your current note or daily note with quick or continuous capture.",
+	"author": "hanjianwei",
+	"authorUrl": "https://github.com/hanjianwei",
+	"isDesktopOnly": false
+}

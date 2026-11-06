@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "5b46658d9ba2c313",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4e498441c07ea7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eebc3eb92172317c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1bfc7d38086b46a",
+    "type": "split",
+    "children": [
+      {
+        "id": "20befc3bedc66343",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67e009e8fcf7008e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "79f87796b7998fb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:阅读",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5d64c219537b7b79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "00a2bb75c3339cbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "139690532cad53d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65d73fa6d283f80c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日记/2026-11-04.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "092f4b236551c2ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "看板/04-想法地图.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c930946db020cbfd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1cf83ee3adbf2a9f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "966411ede61128ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "看板/04-想法地图.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "sparkle:Quick capture": false,
+      "obsidian-map-view:Open map view": false
+    }
+  },
+  "active": "eebc3eb92172317c",
+  "lastOpenFiles": [
+    "日记/2026-11-04.md",
+    "README.md",
+    "README.md",
+    "Untitled.base",
+    "Welcome.md",
+    "2026-11-06.md",
+    "Templates/日记.md",
+    "看板/04b-杭州位置.md",
+    "看板/04-想法地图.md",
+    "看板/03-统计.md",
+    "看板/02-想法筛选.md",
+    "看板/01-全部想法.md",
+    "看板/00-演示总览.md",
+    "日记/2026-11-06.md",
+    "日记/2026-11-05.md",
+    "主题/读书-人物与选择.md",
+    "主题/设计-极简交互.md",
+    "主题/产品-Sparkle.md",
+    "主题/assets/toolbar.svg",
+    "主题/assets/capture.svg",
+    "看板/05-图片灵感.md",
+    "看板/06-笔记库.base",
+    "日记/2026-09-10.md",
+    "看板/07-笔记目录.md",
+    "日记/2099-01-01.md"
+  ]
+}
